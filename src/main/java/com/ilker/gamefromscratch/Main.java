@@ -106,6 +106,9 @@ public class Main extends Application {
         final double cx = player.getBoundsInLocal().getWidth() / 2;
         final double cy = player.getBoundsInLocal().getHeight() / 2;
 
+        System.out.printf("x: %g , y: %g \n", x, y);
+        System.out.printf("Within bounds: %b \n", x - cx >= 0 && y - cy >= 0 && x + cx <= SCENE_WIDTH && y + cy <= SCENE_HEIGHT);
+
         // check if in bounds
         if(x - cx >= 0 && y - cy >= 0 && x + cx <= SCENE_WIDTH && y + cy <= SCENE_HEIGHT) {
             player.relocate(x - cx, y - cy);

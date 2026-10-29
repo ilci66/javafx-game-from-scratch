@@ -4,8 +4,7 @@ imagine the most basic game possible and build it.
 
 ## Current Problem
 
-Maybe I'm not supposed to be moving the canvas itself but the
-objects inside the canvas such as the player and the ball etc
+The player never appears to be within bounds, so I set the bounds wrong
 
 ## Next Steps
 - [ ] Add a box representing the ground.
